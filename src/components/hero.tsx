@@ -5,11 +5,11 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const Hero = () => {
-  const [currentIndex, setCurrentIndex] = useState(1)
-  const [hasClicked, setHasClicked] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
-  const [loadedVideos, setLoadedVideos] = useState(0);
-
+  const [currentIndex, setCurrentIndex] = useState(1)// @ts-ignore
+  const [hasClicked, setHasClicked] = useState(false); // @ts-ignore
+  const [isLoading, setIsLoading] = useState(true);// @ts-ignore
+  const [loadedVideos, setLoadedVideos] = useState(0);// @ts-ignore
+  
   const totalVideos = 3;
   const nextVideoRef = useRef<HTMLVideoElement>(null);
 
