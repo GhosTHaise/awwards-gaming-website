@@ -30,6 +30,7 @@ const Hero = () => {
 
   useEffect(() => {
     if (loadedVideos === totalVideos - 1) {
+      console.log(loadedVideos);
       setIsLoading(false);
     }
   }, [loadedVideos])
@@ -117,6 +118,7 @@ const Hero = () => {
             loop
             muted
             id="next-video"
+            onLoadedData={handleVideoLoad}
             className="absolute-center invisible absolute z-20 size-64 object-cover object-center"
           />
 
