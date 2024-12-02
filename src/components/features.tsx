@@ -85,7 +85,7 @@ const Features = () => {
               title={
                 <>az<b>u</b>l</>
               }
-              description="A cross-world AI Agent - elevating your gameplay to be more fun and pruductive."
+              description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
             />
           </div>
 
