@@ -3,6 +3,7 @@ import { useEffect, useRef } from "preact/hooks"
 
 type AnimatedTitleProps = {
     title: string,
+    sectionId?: string,
     containerClass: string,
 }
 
