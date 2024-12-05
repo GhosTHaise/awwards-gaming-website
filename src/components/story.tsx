@@ -1,6 +1,7 @@
 import { useRef } from "preact/hooks"
 import AnimatedTitle from "./animatedTitle"
 import gsap from "gsap"
+import RoundedCorners from "./roundedCorners"
 
 const Story = () => {
   const frameRef = useRef<HTMLImageElement>(null)
@@ -71,6 +72,8 @@ const Story = () => {
                 />
               </div>
             </div>
+
+            <RoundedCorners />
           </div>
         </div>
       </div>
