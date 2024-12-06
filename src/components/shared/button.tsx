@@ -1,7 +1,7 @@
 import React from 'react'
 
 type ButtonProps = {
-    id : string;
+    id? : string;
     title : string;
     containerClass : string;
     leftIcon? : React.ReactNode;
