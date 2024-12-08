@@ -35,33 +35,37 @@ Follow these steps to get **Awwards** running on your local machine:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/awwards.git
-Navigate to the project directory:
-bash
-Copier le code
-cd awwards
-Install dependencies:
-bash
-Copier le code
-npm install
-Run the development server:
-bash
-Copier le code
-npm run dev
-Open your browser: Navigate to http://localhost:3000 to view the website.
-📂 Project Structure
-csharp
-Copier le code
-Awwards/
-├── public/           # Static assets
-├── src/              # Source code
-│   ├── assets/       # Images, icons, and other assets
-│   ├── components/   # Reusable components
-│   ├── pages/        # Website pages
-│   ├── styles/       # CSS/SCSS styles
-│   └── main.js       # Entry point
-├── package.json      # Dependencies and scripts
-└── vite.config.js    # Vite configuration
-🎨 GSAP Animations
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd awwards
+
+3. **Install dependencies**:
+   ```bash
+   npm install
+
+4. Run the development server:
+   ```bash
+   npm run dev
+
+5. **Open your browser**: Navigate to http://localhost:3000 to view the website.
+
+## 📂 Project Structure
+
+   ```csharp
+      Awwards/
+      ├── public/           # Static assets
+      ├── src/              # Source code
+      │   ├── assets/       # Images, icons, and other assets
+      │   ├── components/   # Reusable components
+      │   ├── pages/        # Website pages
+      │   ├── styles/       # CSS/SCSS styles
+      │   └── main.js       # Entry point
+      ├── package.json      # Dependencies and scripts
+      └── vite.config.js    # Vite configuration
+   ```
+
+## 🎨 GSAP Animations
 This project leverages GSAP to deliver stunning animations, such as:
 
 Smooth page transitions.
@@ -75,10 +79,11 @@ Create a new branch: git checkout -b feature/your-feature.
 Commit your changes: git commit -m "Add a new feature".
 Push the branch: git push origin feature/your-feature.
 Open a Pull Request.
-🛡️ License
+
+## 🛡️ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-🌐 Live Demo
+## 🌐 Live Demo
 Check out the live demo here: Awwards Live
 
 > ### preview 
